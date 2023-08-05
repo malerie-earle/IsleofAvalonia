@@ -1,0 +1,861 @@
+
+@font-face {
+  font-family: 'JustBecause';
+  src: url('Fonts/Just\ Because\ 2.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'baskerville';
+    font-weight: 100;
+    font-size: 16pt;
+}
+
+
+body {
+    background-color: pink;
+    background: -webkit-linear-gradient(
+      to bottom right,
+      #a7d4d7,
+      #d2b6d5,
+      #fabebb
+    ); /* Chrome 10-25, Safari 5.1-6 */
+  
+    background: linear-gradient(
+      to bottom right,
+      #a7d4d7,
+      #d2b6d5,
+      #fabebb
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  }
+
+.banner {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-image: url(Images/411140-landscape-beach-sea-sky-sunset-colorful-island.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: salmon;
+    overflow: hidden;
+  
+}
+.banner .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.banner .sunsetclouds {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.banner .clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate calc(10s * var(--i) ) linear infinite;
+}
+
+
+.banner .sunsetclouds img {
+    max-width: 100%;
+    animation: animates 40s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+#cloud1 {
+    bottom: -10%;
+    left: 80%;
+    animation-duration: calc(20s);
+    opacity: 0.9;
+    height: 50%;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+#cloud4 {
+    height: 50%;
+}
+
+#cloud5 {
+    height: 50%;
+}
+
+#cloud6 {
+    animation-duration: calc(100s / 15);
+    animation-name: rightLeft;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    right: 80%;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+}
+
+#cloud7 {
+    animation-duration: calc(100s / 15);
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 70%;
+    width: 100%;
+    opacity: 1;
+    filter: saturate()
+    
+    
+}
+#cloud8 {
+    position: relative;
+    margin-top: 150px;
+    width: 60%;
+    height: 30%;
+    opacity: 1.2;
+    filter:brightness(1.4);
+    animation-duration: calc(400s / 6);
+    
+}
+
+#cloud9 {
+    top: 0%;
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    opacity: 0.9;
+    filter:brightness(1.1);
+    animation-duration: calc(400s / 10);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#cloud10 {
+    position: absolute;
+    top: 10%;
+    left: -50%;
+    height: 40%;
+    opacity: 0.9;
+    filter:brightness(1.2);
+    animation-duration: calc(400s / 10);
+    
+}
+
+@keyframes animate {
+    0% 
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animates {
+    0% 
+    {
+        transform: translateX(-100%);
+        
+    }
+    100%
+    {
+        transform: translateX(200%);
+        
+    }
+}
+
+@keyframes rightLeft {
+    0% 
+    {
+        transform: translateX(100%);
+      
+    }
+    100%
+    {
+        transform: translateX(-100%);
+        
+    }
+}
+
+@keyframes animate-cloud1 {
+    0% 
+    {
+        transform: translateX(0%);
+       
+     
+    }
+
+    100%
+    {
+        transform: translateX(200%);
+        
+        
+    }
+}
+
+
+
+@keyframes animate-cloud8 {
+    0% 
+    {
+        transform: translateX(0);
+        
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate-cloud10 {
+    0% 
+    {
+        transform: translateX(0);
+        
+    }
+    100%
+    {
+        transform: translateX(100%);
+        
+        
+    }
+}
+
+
+
+.clouds {
+    float: right;
+}
+
+
+/* Navigation Bar CSS */
+
+nav {
+    
+    width: 100%;
+    overflow: visible;
+    float: right;
+    display: flex;
+    color: white;
+    align-content: space-evenly;
+    flex-wrap: nowrap;
+    
+}
+.logoBox {
+    height: 100px;
+    width: 150px;
+    
+}
+
+h1 {
+  font-family: "JustBecause";
+  font-size: 60pt;
+  letter-spacing: 2pt;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+ display: flex;
+ justify-content: left;
+ align-content: top;
+  margin-left: 20px;
+ 
+}
+
+.navBox {
+    color: black;
+    height: 40px;
+    width: 200px;
+    float: center;
+    display: flex;
+    font-size: 15pt;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.navBox:link {
+    text-decoration: none;
+    color: white;
+}
+
+.navBox:visited {
+    text-decoration: none;
+    color: white;
+}    
+
+.navBox:hover { 
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.736);
+    color: rgb(249, 51, 187);
+}
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    
+  }
+  
+  .searchTerm {
+    height: 5%;
+    outline: black;
+    color: #9DBFAF;
+    border-radius: 0;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchTerm::placeholder {
+    color:  #e94ec7;
+  }
+
+  .searchButton {
+    width: 30px;
+    height: 25px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 10px;
+    position: flex;
+    margin-top: 7px;
+    
+  }
+  
+  .wrap{
+    width: 10%;
+    position: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+  }
+
+  #searchIcon {
+    height: 10px;
+    width: 11px;
+    display: flex;
+    border: 1px solid #00B4CC;
+    
+  }
+/* End of Nav Bar CSS */
+
+
+/* Fireflies */
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 73);
+  background-image: radial-gradient(rgb(249, 206, 36) 5%,
+    rgb(254, 179, 4) 25%,
+    rgb(252, 191, 7) 60%);
+  box-shadow: 0 0 5px 2px rgb(250, 193, 93),
+    0 0 20px 10px rgb(255, 228, 140),
+    0 0 40px 15px rgb(255, 219, 41);
+  height: 5px;
+  width: 5px;
+  top: 90%;
+  position: absolute;
+  animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
+    updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1),
+    blinking 3s infinite;
+}
+
+/* first 10 */
+li:nth-of-type(1) {
+  animation-delay: 1s;
+  animation-duration: 65s, 81s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(2) {
+  animation-delay: 0.5s;
+  animation-duration: 80s, 75s, 0.01s;
+}
+
+li:nth-of-type(3) {
+  animation-delay: 1.5s;
+  animation-duration: 70s, 60s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(4) {
+  animation-delay: 2.5s;
+  animation-duration: 90s, 80s, 0.01s;
+}
+
+li:nth-of-type(5) {
+  animation-delay: 0.3s;
+  animation-duration: 55s, 75s, 0.01s;
+}
+
+li:nth-of-type(6) {
+  animation-delay: 2.2s;
+  animation-duration: 79s, 63s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(7) {
+  animation-delay: 0.9s;
+  animation-duration: 70s, 80s, 0.01s;
+}
+
+li:nth-of-type(8) {
+  animation-delay: 1.6s;
+  animation-duration: 50s, 40s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(9) {
+  animation-delay: 1.8s;
+  animation-duration: 77s, 88s, 0.01s;
+}
+
+li:nth-of-type(10) {
+  animation-delay: 3s;
+  animation-duration: 87s, 73s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+/* last 10 */
+li:nth-of-type(11) {
+  animation-delay: 0s;
+  animation-duration: 65s, 81s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(12) {
+  animation-delay: 0s;
+  animation-duration: 80s, 75s, 0.01s;
+}
+
+li:nth-of-type(13) {
+  animation-delay: 0s;
+  animation-duration: 70s, 60s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(14) {
+  animation-duration: 90s, 80s, 0.01s;
+}
+
+li:nth-of-type(15) {
+  animation-duration: 55s, 75s, 0.01s;
+}
+
+li:nth-of-type(16) {
+  animation-duration: 79s, 63s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(17) {
+  animation-delay: 0s;
+  animation-duration: 70s, 80s, 0.01s;
+}
+
+li:nth-of-type(18) {
+  animation-duration: 50s, 40s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+li:nth-of-type(19) {
+  animation-duration: 77s, 88s, 0.01s;
+}
+
+li:nth-of-type(20) {
+  animation-duration: 87s, 73s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+/* animations */
+
+/* It will create the left right movement */
+@keyframes leftright {
+  0%,
+  100% {
+    left: 80%;
+  }
+
+  16.666% {
+    left: 95%;
+  }
+
+  33.333% {
+    left: 10%;
+  }
+
+  50% {
+    left: 60%;
+  }
+
+  66.666% {
+    left: 70%;
+  }
+
+  83.333% {
+    left: 5%;
+  }
+}
+
+/* It will create the up down movement */
+@keyframes updown {
+  0%,
+  100% {
+    top: 90%;
+  }
+
+  25% {
+    top: 10%;
+  }
+
+  50% {
+    top: 50%;
+  }
+
+  75% {
+    top: 51%;
+  }
+}
+
+/* It will create the blinking effect */
+@keyframes blinking {
+  0%,
+  100% {
+    box-shadow: 0 0 5px 2px rgb(250, 193, 93),
+      0 0 10px 5px rgb(255, 242, 63),
+      0 0 30px 10px rgb(255, 219, 41);
+    height: 0;
+    width: 0;
+  }
+
+  50% {
+    box-shadow: 0 0 5px 2px rgb(250, 193, 93),
+      0 0 20px 10px rgb(255, 228, 140),
+      0 0 40px 15px rgb(255, 219, 41);
+  }
+
+  75% {
+    box-shadow: 0 0 0px 0px rgb(250, 193, 93),
+      0 0 0px 0px rgb(255, 228, 140),
+      0 0 0px 0px rgb(255, 219, 41);
+  }
+}
+
+.forest {
+  position: relative;
+  background-color: black;
+  background-image: url(Images/mystical-wood-foggy-morning_181624-61446.avif);
+  background-size: contain;
+  background-repeat:repeat-x;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+}
+
+
+.discoverBox {
+  color: rgba(255, 255, 255, 0.737);
+  font-family: 'Aoboshi One', serif;
+  font-weight: 700;
+  font-size: 100pt;
+  letter-spacing: 8pt;
+  position: absolute;
+  top: 30%;
+  left: 25%
+
+}
+
+.worldBox {
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-size: 40pt;
+  position: absolute;
+  top: 36%;
+  left: 23%;
+  font-weight: 900;
+  text-shadow: -2px -2px 3px #42CEC2;
+}
+
+
+.featureBox {
+    height: 650px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.365);
+    flex: 1;
+    float: right;
+    margin: 50px 20px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.fairyText {
+  margin-top: 2%;
+}
+
+.fairyPic {
+  width: 90%;
+  flex: 1;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  
+}
+
+#fairyLore {
+  height: 18%;
+  width: 60%;
+  margin-bottom: -4;
+}
+
+#fairyCafe2 {
+  height: 30%;
+  width: 93%;
+  margin-top: -3;
+  margin-bottom: 3%;
+}
+
+#fairyHotel2 {
+  width: 92%;
+  height: 25%;
+  margin-bottom: -17px;
+  margin-top: -2px;
+}
+
+#fairyHotel {
+  width: 93%;
+  height: 25%;
+  margin-top: -22px;
+  margin-bottom: -5%;
+  
+
+}
+
+.features {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  
+}
+
+p {
+  margin: 10px;
+  text-align:center;
+  font-size: 15pt;
+}
+
+
+.buttonClass {
+  font-size:15px;
+  font-family: 'Baskerville';
+  width:140px;
+  height:30px;
+  border-width:1px;
+  color:rgba(255, 255, 255, 1);
+  border-color:rgba(9, 8, 10, 1);
+  font-weight:bold;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  box-shadow:inset 0px 1px 0px 0px rgba(152, 24, 233, 1);
+  text-shadow:inset 0px 1px 0px rgba(15, 6, 20, 1);
+  background:linear-gradient(rgba(224, 8, 192, 1), rgba(80, 227, 194, 1));
+  margin: 10px 10px 10px 5px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 90%;
+  right: 5%;
+  
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(80, 227, 194, 1), rgba(224, 8, 192, 1));
+  color: rgb(112, 11, 112);
+}
+
+.contactus {
+  background-image: url(Images/MicrosoftTeams-image__1_-removebg-preview.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 70px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: left;
+ 
+}
+
+.pirateship {
+  width: 27%;
+  height: 80%;
+  float: left;
+  
+ 
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #8045a0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}
+
+
+input[type=submit]:hover {
+  background-color: #e115b1;
+  color: black;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 10px;
+  background-color: #aa1ce2ad;
+  padding: 20px;
+  text-align: left;
+  width: 30%;
+  height: 0%;
+  align-self: center;
+}
+
+/* Footer CSS*/
+footer {
+  background-color: #10458e;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  
+}
+
+.footerlogo {
+  height: 200px;
+  position: absolute;
+  left: 40%;
+  }
+
+.socialmedia {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin: 10px;
+  margin-top: 140px;
+}
+
+.map {
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: auto;
+}
+
+#copyright {
+  color: white;
+  font-family: 'Cinzel';
+  font-size: 12pt;
+  margin-top: 140px;
+}
+/* Footer CSS*/
+
+hr {
+  border: 2px solid rgb(244, 123, 220);
+}
+
+/* Top of Page Button CSS*/
+.stt {
+  position: fixed;
+  right: 4rem;
+  bottom: 4rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(60, 209, 235) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+  box-shadow: 0 0.25rem 0.5rem 0 gray;
+  opacity: 0.7;
+}
+.stt:hover {
+  opacity: 0.8;
+}
+.stt:focus {
+  opacity: 0.9;
+}
+.stt:active {
+  opacity: 1;
+}
+/* Top of Page Button CSS*/
+
+
+

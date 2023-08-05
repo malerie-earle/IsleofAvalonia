@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "JustBecause";
+  src: url("Fonts/Just\ Because\ 2.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    .content     {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      
+    }
+
+  h1 {
+    font-family: "JustBecause";
+    font-size: 60pt;
+    letter-spacing: 2pt;
+  }
+  
+  h2 {
+    font-family: "JustBecause";
+    font-size: 35pt;
+    letter-spacing: 1pt;
+    padding-bottom: 5px;
+  }
+  
+    body {
+      background-color: pink;
+      background: -webkit-linear-gradient(
+        to bottom right,
+        #a7d4d7,
+        #d2b6d5,
+        #fabebb
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to bottom right,
+        #a7d4d7,
+        #d2b6d5,
+        #fabebb
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  
+    nav {
+      width: 100%;
+      overflow: visible;
+      float: right;
+      display: flex;
+      color: white;
+      align-content: space-evenly;
+      flex-wrap: nowrap;
+      font-family: "Cinzel";
+      
+    }
+
+    hr {
+      border: 2px solid purple;
+    }
+
+    .mainbox {
+    width: 1300px;
+    height: 1300px; /* will be removed once page is complete */
+    padding: 15px;
+    /*border: 3px solid gray;*/
+    margin: 20px;
+    text-align: left;
+    }
+
+    .logoBox {
+      height: 100px;
+      width: 150px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    .navBox {
+      color: white;
+      height: 40px;
+      width: 200px;
+      float: center;
+      display: flex;
+      font-size: 15pt;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 15px;
+      position: relative;
+      z-index: 1;
+    }
+    
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    a:hover {
+      color: black;
+    }
+    
+    .navBox:link {
+      text-decoration: none;
+      color: white;
+    }
+    
+    .navBox:visited {
+      text-decoration: none;
+      color: white;
+    }
+    
+    .navBox:hover { 
+      text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.736);
+      color: rgb(249, 51, 187);
+  }
+    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+      height: 20px;
+    }
+    
+    .divcontent {
+      width: 600px;
+      height: 600px; /* will be removed once page is complete */
+      border-radius: 10px;
+      margin: 20px;
+      text-align: left;
+      float: left;
+      
+    }
+    
+    .box1{
+      width: 650px;
+      height: 400px;
+      float: right;
+      padding-top: 150px;
+      border-radius: 50px;
+      padding: 20px;
+      text-align: right;
+      position:relative; top: 200px;
+      border:2px black;
+    }
+
+    #box1style {
+      text-align: justify;
+      padding: 15px;
+    }
+
+    .box2 {
+      width: 650px;
+      height: 400px;
+      float: left;
+      padding: 20px;
+      text-align: left;
+      position:relative; top: 40px;
+    }
+
+    .box3{
+      width: 900px;
+      height: 500px;
+      float: right;
+      padding-top: 150px;
+      border-radius: 50px;
+      padding: 20px;
+      text-align: right;
+      position:absolute; top: 200px;
+    }
+
+    #box3style {
+      text-align: justify;
+      padding: 15px;
+    }
+    
+    .creaturebox {
+      text-align: justify;
+      float: right;
+      border: 2px black;
+    }
+
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #00b4cc;
+      border-right: none;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: #9dbfaf;
+    }
+    
+    .searchTerm:focus {
+      color: black;
+    }
+    
+    .searchTerm::placeholder {
+      color: #e94ec7;
+    }
+    
+    .searchButton {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #00b4cc;
+      background: #00b4cc;
+      text-align: center;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: px;
+    }
+    
+    .wrap {
+      width: 10%;
+      position: flex;
+      justify-content: center;
+      align-content: center;
+      z-index: 2;
+      margin-top: 30px;
+      margin-left: 5px;
+    }
+    
+    #searchIcon {
+      height: 10px;
+      width: 10px;
+      display: flex;
+      border: 1px solid #00b4cc;
+    }
+
+ /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Top of Page Button CSS*/
+
+.stt {
+  position: fixed;
+
+  right: 4rem;
+
+  bottom: 4rem;
+
+  width: 3rem;
+
+  height: 3rem;
+
+  border-radius: 50%;
+
+  background: rgb(60, 209, 235)
+    url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E")
+    center no-repeat;
+
+  box-shadow: 0 0.25rem 0.5rem 0 gray;
+
+  opacity: 0.7;
+}
+
+.stt:hover {
+  opacity: 0.8;
+}
+
+.stt:focus {
+  opacity: 0.9;
+}
+
+.stt:active {
+  opacity: 1;
+}
+
+/* Top of Page Button CSS*/
+
+/* Footer CSS*/
+footer {
+  background-color: #10458e;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  
+}
+
+.footerlogo {
+  height: 200px;
+  position: absolute;
+  left: 40%;
+  }
+
+.socialmedia {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin: 10px;
+  margin-top: 140px;
+}
+
+.map {
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: auto;
+}
+
+#copyright {
+  color: white;
+  font-family: 'Cinzel';
+  font-size: 12pt;
+  margin-top: 140px;
+}
+/* Footer CSS*/
