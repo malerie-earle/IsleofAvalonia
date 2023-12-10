@@ -4,11 +4,13 @@ Complete with History, Places to Go, Things to Do and more, we have created a be
 mystical island that anyone would love to visit on vacation!
 
 Group Project:
-Malerie Earle
-Jennifer Oliver 
-Meghan McKinley
+
+- Malerie Earle
+- Jennifer Oliver 
+- Meghan McKinley
 
 Assignment Instructions:
+
 You are to design and create a web site on the topic of your choice.  The site is required to contain at least five (5) pages.  Your site will be graded for originality and design consistency, as well as efficient use of the following:
 
 • Page Layout – make the layout easy to read and navigate. Keep the KISS rule in mind – Keep It Simple Stupid.  Make proper use of semantic tags and style each appropriately.
