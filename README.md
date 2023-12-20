@@ -4,10 +4,9 @@ Complete with History, Places to Go, Things to Do and more, we have created a be
 mystical island that anyone would love to visit on vacation!
 
 Group Project:
-
-- Malerie Earle
-- Jennifer Oliver 
-- Meghan McKinley
+Malerie Earle - Home Page
+Jennifer Oliver - Places to See, Things to Do 
+Meghan McKinley - About, Gallery
 
 Assignment Instructions:
 
