@@ -3,11 +3,11 @@ This is the tourism website for the imaginary Isle of Avalonia.
 Complete with History, Places to Go, Things to Do and more, we have created a beautiful 
 mystical island that anyone would love to visit on vacation!
 
-Group Project:
-Malerie Earle - Home Page
-Jennifer Oliver - Places to See, Things to Do 
-Meghan McKinley - About, Gallery
-
+Group Project: <br />
+Malerie Earle - Home Page<br />
+Jennifer Oliver - Places to See, Things to Do <br />
+Meghan McKinley - About, Gallery<br />
+<br />
 Assignment Instructions:
 
 You are to design and create a web site on the topic of your choice.  The site is required to contain at least five (5) pages.  Your site will be graded for originality and design consistency, as well as efficient use of the following:
