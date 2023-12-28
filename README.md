@@ -2,6 +2,9 @@
 This is the tourism website for the imaginary Isle of Avalonia.<br />
 Complete with History, Places to Go, Things to Do and more, we have created a beautiful 
 mystical island that anyone would love to visit on vacation! <br />
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/008334bd-ab16-4fdb-92c4-7856b8f0e779/deploy-status)](https://app.netlify.com/sites/isleofavalonia/deploys)
+
 <br/>
 Professor Feedback: <br />
  4.8 / 5 - Awesome job - very well laid out.  Love the clouds animated on the main page. My only issue is the color of the main menu links is harder to read than they should. - Maurice Baubin<br />
