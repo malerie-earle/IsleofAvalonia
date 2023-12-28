@@ -3,8 +3,8 @@ This is the tourism website for the imaginary Isle of Avalonia.<br />
 Complete with History, Places to Go, Things to Do and more, we have created a beautiful 
 mystical island that anyone would love to visit on vacation! <br />
 <br/>
-Teacher Feedback: <br />
- 4.8 / 5 - Awesome job - very well laid out.  Love the clouds animated on the main page. My only issue is the color of the main menu links is harder to read than they should. <br />
+Professor Feedback: <br />
+ 4.8 / 5 - Awesome job - very well laid out.  Love the clouds animated on the main page. My only issue is the color of the main menu links is harder to read than they should. - Maurice Baubin<br />
 <br />
 Group Project: <br />
 Malerie Earle - Home Page<br />
