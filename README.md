@@ -4,6 +4,7 @@ Complete with History, Places to Go, Things to Do and more, we have created a be
 mystical island that anyone would love to visit on vacation! <br />
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/008334bd-ab16-4fdb-92c4-7856b8f0e779/deploy-status)](https://app.netlify.com/sites/isleofavalonia/deploys)
+<img width="1422" alt="isleofavalonia" src="https://github.com/malerie-earle/IsleofAvalonia/assets/141525464/637d9da3-92a9-465e-9a35-4ef6425316d0">
 
 <br/>
 Professor Feedback: <br />
